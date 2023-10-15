@@ -42,7 +42,7 @@ form .flexSB input:nth-child(1) {
   font-size: 15px;
   word-spacing: 5px;
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .contacts .container {
     flex-direction: column;
   }
@@ -52,4 +52,41 @@ form .flexSB input:nth-child(1) {
   .contacts .row {
     width: 100%;
   }
+} */
+
+
+/* Media Query for Mobile Devices (e.g., up to 768px width) */
+@media (max-width: 768px) {
+  .contacts .right {
+    padding: 20px; /* Adjust padding for mobile layout */
+  }
+
+  .contacts h1 {
+    font-size: 24px; /* Adjust font size for mobile layout */
+  }
+
+  .contacts .box p {
+    font-size: 15px; /* Adjust font size for mobile layout */
+  }
+
+  .contacts textarea,
+  .contacts input {
+    padding: 10px; /* Adjust padding for mobile layout */
+  }
+
+  form .flexSB input:nth-child(1) {
+    margin-right: 5px; /* Adjust margin for mobile layout */
+  }
+
+  .contacts h3 {
+    margin-top: 15px; /* Adjust margin for mobile layout */
+    font-weight: 500;
+    margin-bottom: 5px; /* Adjust margin for mobile layout */
+  }
+
+  .contacts span {
+    font-size: 14px; /* Adjust font size for mobile layout */
+    word-spacing: 2px; /* Adjust word-spacing for mobile layout */
+  }
 }
+

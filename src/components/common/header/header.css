@@ -72,7 +72,7 @@ header ul li a:hover {
   border-radius: 40px;
 }  */
 /*--------header------------*/
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .start {
     clip-path: none;
   }
@@ -104,5 +104,69 @@ header ul li a:hover {
     background-color: #1eb2a6;
   }
 }
+ */
 
+ @media (max-width: 768px) {
+  .head {
+    padding: 10px 0; /* Adjust padding for mobile layout */
+    
+  }
+
+  .logo h1 {
+    font-size: 24px; /* Adjust font size for mobile layout */
+    width: auto;
+  
+  
+  }
+
+  
+  header ul {
+    padding: 10px 20px; /* Adjust padding for mobile layout */
+  }
+
+  header li {
+    margin-right: 20px; /* Adjust margin for mobile layout */
+  }
+
+  .start {
+    padding: 10px 30px; /* Adjust padding for mobile layout */
+    clip-path: none; /* Remove clip-path for mobile layout */
+  }
+
+  .toggle {
+    display: block; /* Display the toggle button for mobile layout */
+  }
+  
+  header {
+    margin: 0;
+    position: fixed;
+    background-color: #1eb2a6;
+    position: relative;
+    position: fixed;
+  }
+  header ul.flexSB {
+    display: none;
+    
+  }
+  header ul li {
+    margin-bottom: 20px;
+  }
+  .toggle {
+    display: block;
+    background: none;
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    right: 0;
+    top: -20px;
+  }
+  .mobile-nav {
+    position: absolute;
+    top: 7vh;
+    left: 0;
+    width: 100%;
+    background-color: #1eb2a6;
+  }
+
+}
 

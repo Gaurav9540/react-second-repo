@@ -54,3 +54,20 @@
   background-color: #1eb2a6;
   color: #fff;
 }
+
+/* Media Query for Mobile Devices (e.g., up to 768px width) */
+@media (max-width: 768px) {
+  .team .items {
+    padding: 20px; /* Adjust padding for mobile layout */
+    text-align: center; /* Center text for mobile layout */
+  }
+  .overlay {
+    display: none; /* Hide the overlay on mobile devices */
+  }
+  .team .details h2 {
+    font-size: 18px; /* Adjust font size for mobile layout */
+  }
+  .team .details p {
+    font-size: 14px; /* Adjust font size for mobile layout */
+  }
+}

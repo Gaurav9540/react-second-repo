@@ -39,7 +39,7 @@ footer .container {
   grid-template-columns: 3fr 2fr 2fr 4fr 3fr;
   grid-gap: 30px;
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   footer .container {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -110,4 +110,36 @@ footer .last i {
 }
 .legal i {
   color: #1eb2a6;
+} */
+
+
+/* Media Query for Mobile Devices (e.g., up to 768px width) */
+@media (max-width: 768px) {
+  .newletter {
+    padding: 30px 0; /* Adjust padding for mobile layout */
+    margin-top: 3%; /* Adjust margin for mobile layout */
+  }
+  .newletter .right,
+  .newletter .left {
+    padding: 0; /* Remove padding for mobile layout */
+  }
+  .newletter h1 {
+    font-size: 24px; /* Adjust font size for mobile layout */
+    margin-bottom: 10px; /* Adjust margin for mobile layout */
+  }
+  .newletter .right {
+    flex-direction: column; /* Stack elements vertically for mobile layout */
+    align-items: flex-start; /* Align items to the left for mobile layout */
+  }
+  .newletter input {
+    padding: 10px; /* Adjust padding for mobile layout */
+    height: 25px; /* Adjust height for mobile layout */
+  }
+  .newletter i {
+    padding: 8px; /* Adjust padding for mobile layout */
+  }
+
+  footer .container {
+    grid-template-columns: 1fr; /* Display footer content in a single column for mobile layout */
+  }
 }
