@@ -120,7 +120,9 @@
 /* Media Query for Mobile Devices (e.g., up to 768px width) */
 @media (max-width: 768px) {
   .coursesCard {
-    padding: 20px 0; /* Adjust padding as needed for mobile layout */
+    padding: 10px 0px;
+
+    
   }
   .coursesCard .items {
     padding: 15px; /* Adjust padding as needed for mobile layout */
@@ -173,7 +175,16 @@
     font-size: 12px; /* Adjust font size for mobile layout */
     padding: 3px 10px;
   }
-  /* .online{
+  .newcontainer{
+    color: black;
+    /* font-size: 10px; */
+    /* padding: 1px; */
     
-  } */
+    
+  }
+  .online{
+    margin: 0px;
+    
+
+  }
 }

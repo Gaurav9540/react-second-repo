@@ -116,30 +116,52 @@ footer .last i {
 /* Media Query for Mobile Devices (e.g., up to 768px width) */
 @media (max-width: 768px) {
   .newletter {
-    padding: 30px 0; /* Adjust padding for mobile layout */
-    margin-top: 3%; /* Adjust margin for mobile layout */
+    padding: 30px 0; 
+    margin-top: 3%; 
+    height: 250px;
+    
   }
   .newletter .right,
   .newletter .left {
-    padding: 0; /* Remove padding for mobile layout */
+    padding: 0; 
   }
   .newletter h1 {
-    font-size: 24px; /* Adjust font size for mobile layout */
-    margin-bottom: 10px; /* Adjust margin for mobile layout */
+    font-size: 20px; 
+    margin-bottom: 10px;
   }
   .newletter .right {
-    flex-direction: column; /* Stack elements vertically for mobile layout */
-    align-items: flex-start; /* Align items to the left for mobile layout */
+    flex-direction: column; 
+    align-items: flex-start; 
+    width: 150px;
+    margin-top: 110px;
+    margin-right: 110px;
+    height: 20px;
+  }
+  .newletter .left {
+    white-space: nowrap;
+    
+  /* overflow: hidden; */
+  /* text-overflow: ellipsis; */
   }
   .newletter input {
-    padding: 10px; /* Adjust padding for mobile layout */
-    height: 25px; /* Adjust height for mobile layout */
+    padding: 10px; 
+    height: 30px; 
+    margin-top: 30px;
+    
   }
+  
   .newletter i {
-    padding: 8px; /* Adjust padding for mobile layout */
+    padding: 8px; 
+    
   }
 
   footer .container {
-    grid-template-columns: 1fr; /* Display footer content in a single column for mobile layout */
+    grid-template-columns: 1fr; 
+  }
+  .msg{
+    
+    height: 30px;
+    margin-bottom: 50px;
+    
   }
 }

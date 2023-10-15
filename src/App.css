@@ -14,13 +14,12 @@ body {
 .container {
   max-width: 90%;
   margin: auto;
+  
 }
 .flexSB {
   display: flex;
   justify-content: space-between;
-
-  /* max-width: 100%; */
-  /* border-radius: 30%; */
+  
 }
 .icon {
   width: 40px;
@@ -81,8 +80,9 @@ button:hover {
   text-transform: uppercase;
 }
 #heading h1 {
-  font-size: 45px;
+  font-size: 40px;
   margin: 20px 0;
+  color: black;
   text-transform: capitalize;
 }
 p {
@@ -170,22 +170,52 @@ p {
 @media (max-width: 768px) {
   .container {
     max-width: 100%; 
-    padding-top: 0px;
+    padding-top: 5px;
     margin-left: 10px;
-    /* width:fit-content; */
-    
   }
+  .newcontainer{
+    width: 95%;
+    height: 200px;
+    /* background-color: #ffffff; */
+    align-items:flex-start;
+    margin-left: 10px;
+    text-align:start;
+  }
+  /* -----------------button section----------- */
+  .primary-btn {
+    width: 180px; 
+    height: 50px; 
+    padding: 5px 10px;
+    text-align:center;
+    font-size: 11px;  
+  }
+  .secondary-btn{
+    width: 160px; 
+    height: 50px; 
+    padding: 5px 10px;
+    text-align:center;
+    font-size: 11px; 
+  }
+  /* ---------------------------------------------- */
 
   .grid,
   .grid2,
   .grid3 {
-    grid-template-columns: 1fr; /* Display content in a single column for mobile layout */
-    grid-gap: 15px; /* Adjust grid gap for mobile layout */
+    grid-template-columns: 1fr; 
+    grid-gap: 10px; /* Adjust grid gap for mobile layout */
+    padding: 10px;
   }
   #heading{
-    padding-top: 800px;
+    
     width: 100%;
+    margin-left: 10px;
+    text-align:start;
   }
+  .outline-btn{
+    margin-top: 20px;
+  }
+  
+  
   
   
 }

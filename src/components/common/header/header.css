@@ -8,11 +8,7 @@
   width: 100%;
 }
 .logo{
-  margin-bottom: 12px;
-  
-  /* margin-block-start: auto; */
-  /* max-width: auto; */
-  
+  margin-bottom: 12px; 
 }
 
 
@@ -108,14 +104,19 @@ header ul li a:hover {
 
  @media (max-width: 768px) {
   .head {
-    padding: 10px 0; /* Adjust padding for mobile layout */
+    padding: 10px 0px; /* Adjust padding for mobile layout */
+    /* padding-top: 20px; */
+    position: absolute;
+    width: auto;
+    position: fixed;
+    
     
   }
 
   .logo h1 {
     font-size: 24px; /* Adjust font size for mobile layout */
-    width: auto;
-  
+    /* width: auto; */
+    /* position: absolute; */
   
   }
 
@@ -131,6 +132,7 @@ header ul li a:hover {
   .start {
     padding: 10px 30px; /* Adjust padding for mobile layout */
     clip-path: none; /* Remove clip-path for mobile layout */
+   
   }
 
   .toggle {
@@ -138,11 +140,19 @@ header ul li a:hover {
   }
   
   header {
-    margin: 0;
+    /* margin: 0px; */
+    padding-top: 20px;
+    margin-left: 0px;
+    width: 100%;
     position: fixed;
+    top: 100px;                     /*navbar position*/
+   
+    
+    
     background-color: #1eb2a6;
-    position: relative;
-    position: fixed;
+    
+    /* position: fixed; */
+
   }
   header ul.flexSB {
     display: none;
@@ -167,6 +177,18 @@ header ul li a:hover {
     width: 100%;
     background-color: #1eb2a6;
   }
+  .social{
+    
+    margin-left: 80px;
+    width: 300px;
+    height: 300px;
+   
+    
+  }
+  .head .icon {
+    margin-left: 0px;
+  }
+
 
 }
 
