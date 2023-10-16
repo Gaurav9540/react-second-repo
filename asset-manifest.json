@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-second-repo/static/css/main.0c54c467.css",
-    "main.js": "/react-second-repo/static/js/main.767af27a.js",
+    "main.js": "/react-second-repo/static/js/main.62663a5f.js",
     "static/media/bg.webp": "/react-second-repo/static/media/bg.7b28c633a72c6b05637f.webp",
     "static/media/back.webp": "/react-second-repo/static/media/back.93d3f802b480eeabae07.webp",
     "index.html": "/react-second-repo/index.html",
     "main.0c54c467.css.map": "/react-second-repo/static/css/main.0c54c467.css.map",
-    "main.767af27a.js.map": "/react-second-repo/static/js/main.767af27a.js.map"
+    "main.62663a5f.js.map": "/react-second-repo/static/js/main.62663a5f.js.map"
   },
   "entrypoints": [
     "static/css/main.0c54c467.css",
-    "static/js/main.767af27a.js"
+    "static/js/main.62663a5f.js"
   ]
 }
