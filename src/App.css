@@ -176,10 +176,10 @@ p {
   .newcontainer{
     width: 95%;
     height: 200px;
-    /* background-color: #ffffff; */
+    background-color: #ffffff;
     align-items:flex-start;
     margin-left: 10px;
-    text-align:start;
+    
   }
   /* -----------------button section----------- */
   .primary-btn {
