@@ -104,7 +104,7 @@ header ul li a:hover {
 
  @media (max-width: 768px) {
   .head {
-    padding: 10px 0px; /* Adjust padding for mobile layout */
+    padding: 10px 0px; 
     /* padding-top: 20px; */
     position: absolute;
     width: auto;
